@@ -39,10 +39,10 @@ Reading input data for simulation 1.
 	temperature true
 	alkalinity true
 	charge_balance balance true
-	percent_error error ture
+	percent_error error true
+	equilibrium_phases CO2 # equilibrium_phases, note abbreviation -eq
 	saturation_indices	Calcite Aragonite Kaolinite Gibbsite Montmorillonite-Ca Chlorite14A Pyrophyllite SiO2(a) CO2(g) 
-	totals Comment Al N(-3) Ba Ca Cl Fe F K Mg Mn Na Ni N(+5) N(+3) P Si S(6) Zn Alkalinity  N C O2(g) CO2(g)
-	equilibrium_phases CO2 # equilibrium_phases, note abbreviation -eqq
+	totals  Al N(-3) Ba Ca Cl Fe F K Mg Mn Na Ni N(+5) N(+3) P Si S(6) Zn Alkalinity  N C O2(g) CO2(g)
 -----
 TITLE
 -----
@@ -59,7 +59,6 @@ TITLE
 10L55036001	0,01	1,02		62	209	1,5		7,6	21	0,09	200	0,0005	2,21	0,01	0,06		17,9	0,0027	0,00739
 10L56016004		2,44		120	26	35		1,9	6,3	0,83	22		0,44	0,006569	0,04		3		0,0079
 
-WARNING: Did not find master species, Comment.
 WARNING: Did not find master species, O2(g).
 WARNING: Did not find master species, CO2(g).
 WARNING: Did not find phase, CO2.
@@ -71,7 +70,7 @@ End of simulation.
 Reading input data for simulation 2.
 ------------------------------------
 
--------------------------------
-End of Run after 0.077 Seconds.
--------------------------------
+------------------------------
+End of Run after 0.06 Seconds.
+------------------------------
 

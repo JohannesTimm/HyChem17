@@ -3,7 +3,7 @@ SOLUTION_SPREAD
 -units mol/l
 #-temp 11
 
-Comment	Al	N(-3)	Ba	Ca	Cl	Fe	F	K	Mg	Mn	Na	Ni	N(+5)	N(+3)	P	Si	S(6)	Zn	Alkalinity
+Number	Al	N(-3)	Ba	Ca	Cl	Fe	F	K	Mg	Mn	Na	Ni	N(+5)	N(+3)	P	Si	S(6)	Zn	Alkalinity
 	mg/l	mg/l	mg/l	mg/l	mg/l	mg/l	mg/l	mg/l	mg/l	mg/l	mg/l	mg/l	mg/l	mg/l	mg/l	mg/l	mg/l	mg/l	mol/l as HCO3
 10L54165002	0,002	13,61		610	4270	13,7		38,8	140	3,36	1300	0,0005	0,22	0,04	0,05		174	0,005	0,01083
 10L62076008		0,001288		8,9	2,3	0,02		1,5	7,2	0,71	13	0,011	0,02	30,14			22	0,016	3E-05
@@ -22,7 +22,7 @@ SELECTED_OUTPUT
 -temperature true
 -alkalinity true
 -charge balance true
--percent error ture
--saturation_indices	Calcite Aragonite Kaolinite Gibbsite Montmorillonite-Ca Chlorite14A Pyrophyllite SiO2(a) CO2(g) 
--totals Comment Al N(-3) Ba Ca Cl Fe F K Mg Mn Na Ni N(+5) N(+3) P Si S(6) Zn Alkalinity  N C O2(g) CO2(g)
+-percent error true
 -eq CO2 # equilibrium_phases, note abbreviation -eq
+-saturation_indices	Calcite Aragonite Kaolinite Gibbsite Montmorillonite-Ca Chlorite14A Pyrophyllite SiO2(a) CO2(g) 
+-totals  Al N(-3) Ba Ca Cl Fe F K Mg Mn Na Ni N(+5) N(+3) P Si S(6) Zn Alkalinity  N C O2(g) CO2(g)
