@@ -15,9 +15,14 @@ Number	Description	Al	N(-3)	Ba	Ca	Cl	Fe	F	K	Mg	Mn	Na	Ni	N(+5)	N(+3)	P	Si	S(6)	Zn
 10	test10	0.002	0.14		77.1	52	0.67		3.7	5.26	0.15	21.7		6.86	0.00328	0.15		33.2		0.00289
 SELECTED_OUTPUT
 	-file C:\Users\Johannes\Documents\HydrochemicalModelling\GIT\Homework2017\phreeqc_test.csv # name of output file. OBLIGATORY
+	-solution true
+	-water true	
 	-ph true
 	-percent error true
 	-alkalinity true
 	-charge balance true
-	-saturation_indices	Calcite Aragonite Kaolinite Gibbsite Montmorillonite-Ca Chlorite14A Pyrophyllite SiO2(a) CO2(g) 
-	-totals Al N(-3) Ba Ca Cl Fe F K Mg Mn Na Ni N(+5) N(+3) P Si S(6) Zn Alkalinity  N C #O2(g) CO2(g)
+	-saturation_indices	Calcite Aragonite Kaolinite Gibbsite Montmorillonite-Ca Chlorite14A Pyrophyllite SiO2(a) CO2(g)
+	-totals Al N(-3) Ba Ca Cl Fe F K Mg Mn Na Ni N(+5) N(+3) P Si S(6) Zn Alkalinity  N C #O2(g) CO2(g) 
+	USER_PUNCH
+		-headings Description
+		10 PUNCH DESCRIPTION
